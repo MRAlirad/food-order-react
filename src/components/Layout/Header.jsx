@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { Fragment } from 'react';
 
-// import HeaderCartButton from './HeaderCartButton.jsx';
+import HeaderCartButton from './HeaderCartButton.jsx';
 import mealsImage from '../../assets/meals.jpg';
 import classes from './Header.module.css';
 
@@ -10,7 +10,7 @@ const Header = (props) => {
     <Fragment>
       <header className={classes.header}>
         <h1>ReactMeals</h1>
-        {/* <HeaderCartButton /> */}
+        <HeaderCartButton />
       </header>
       <div className={classes['main-image']}>
         <img src={mealsImage} alt='A table full of delicious food!' />
